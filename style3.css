@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   
+}
+
+
+#div1{
+    color: rgb(31,31,251);
+    margin-top:350px ;
+    font-size: x-large;
+    margin-top: 350;   
+}
+
+#div2{
+    height: 97vh;
+    width: 60vw;
+    border: 2px solid rgb(69,69,253);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    margin-top: 10px;   
+    background-color: black;
+}
+
+
+h5{
+    margin-top: 32px;
+    margin-bottom: 5px;
+    font-size: larger;
+    color: rgb(98,193,214);
+}
+
+
+.textar{
+    width: 250%;
+    height: 33px;
+    border: 2px solid rgb(69,69,253);
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 14px;
+}
+.labnam{
+    margin-right: 30px;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(98,193,214);
+}
+
+
+
+.checkar{
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: large;  
+    color: rgb(35,152,182);  
+}
+
+
+.radioar{
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: large;
+    color: rgb(35,152,182);
+}
+
+
+.radioar2{
+    margin-right: 80px;
+    margin-left: 60px;
+    font-size: large;
+    color: rgb(35,152,182);
+}
+
+
+textarea{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border: 2px solid rgb(69,69,253);
+    border-radius: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+
+button{
+    background: linear-gradient(to right,rgb(89, 89, 254),rgb(35, 152, 182),rgb(98, 193, 214));
+    border: 5px solid rgb(69,69,253);
+    border-radius: 20px;
+    width: 120px;
+    color:black;
+    font-weight: bold;
+    transition: transform 0,3s ease;
+}
+button:hover{
+    color: white;
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+
+
+select{
+    background: linear-gradient(to right,rgb(89, 89, 254),rgb(35, 152, 182),rgb(98, 193, 214));
+    color: black;
+    border: 2px solid rgb(69,69,253);
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+span{
+    color: rgb(224,6,224);
+    display: none;
+}
+
+
+@media(min-width:350px) and (max-width:750px){
+    body{
+        flex-direction: column;
+    }
+    #div1{
+       margin-left: 32%;
+       margin-top: 5%;
+    }
+    #div2{
+       height: 100%;
+       width: 90%;
+       box-shadow: none;
+       margin-left: 4%;
+       margin-bottom: 15%;
+       margin-top: 1%;
+       padding: 1%;
+    }
+    .labnam{
+        margin:1%;
+    }
+    .checkar{
+        margin: 2%;
+    }
+    .textar{
+        width: 87%;
+        margin-left: 2%;
+    }
+    .radioar2{
+        padding: 5%;
+    }
+    textarea{
+        width: 85%;
+    }
+    h5{
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    button{
+        margin-bottom: 5%;
+    }
+}
+

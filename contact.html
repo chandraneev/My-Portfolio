@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div id="heading"><h1>Details</h1></div>
+    <form action="https://formsubmit.co/chandraneevdey@gmail.com" method="POST">
+    <div id="maincon">
+    <div class="div1" id="step1">
+        <div id="con1">
+            <div class="outercon"><div>Your Info</div>
+            <div>Job Info</div>
+            <div>Massage</div></div>
+            <div class="outercon" id="page4"><div class="con page">1</div>
+            <div class="con">2</div>
+            <div class="con">3</div></div>
+        </div>
+         <div id="container">
+        <div id="con2">
+            <input type="text" name="First Name" placeholder="First Name"  class="perinfo" required>
+            <input type="text" name="Last Name" placeholder="Last Name" class="perinfo" required>
+            <input type="email" name="E-Mail" placeholder="E-Mail" class="perinfo" required>
+            <input type="number" name="Phone Number" placeholder="Phone NO." class="perinfo" id="userin" required>
+            <p id="hidden">*Please Enter Valid Phone NO.</p>
+        </div>
+         </div>
+    </div>
+
+     <div class="div1" id="step2">
+        <div id="con1">
+            <div class="outercon"><div>Your Info</div>
+            <div>Job Info</div>
+            <div>Massage</div></div>
+            <div class="outercon" id="page4"><div class="con page">1</div>
+            <div class="con" id="page2">2</div>
+            <div class="con">3</div></div>
+        </div>
+         <div id="container">
+        <div id="con2">
+            <input type="text" name="Role of Work" placeholder="Role of Work"  class="perinfo" required>
+            <div class="check"><span>Employment Type:-</span>
+        <label class="checkar">
+            <input type="checkbox" name="Employment Type" value="Full Time">Full Time
+        </label>
+        <label class="checkar">
+            <input type="checkbox" name="Employment Type" value="Part Time">Part Time
+        </label>
+        <label class="checkar">
+            <input type="checkbox" name="Employment Type" value="Intern" >Intern
+        </label></div>
+
+        <div class="check"><span>Work Location:-</span>
+        <label  class="radioar2">
+            <input type="radio" name="Work Location" value="Work From Home">Work From Home
+        </label>
+        <label class="radioar2">
+            <input type="radio" name="Work Location" value="Work From Office">Work From Office
+        </label>
+        </div>
+
+        <div class="check1">
+        <select name="State" required>
+            <option value="">State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Hariyana">Hariyana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="sikkim">sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Utter Pradesh">Utter Pradesh</option>
+            <option value="West Bengal">West Bengal</option>
+        </select>
+        </div>
+        </div>
+         </div>
+    </div>
+    
+    <div class="div1" id="step3">
+    <div id="con1">
+            <div class="outercon"><div>Your Info</div>
+            <div>Job Info</div>
+            <div>Massage</div></div>
+            <div class="outercon" id="page4"><div class="con page">1</div>
+            <div class="con" id="page2">2</div>
+            <div class="con" id="page3">3</div></div>
+        </div>
+         <div id="container">
+        <div id="con2">
+           <div class="check1"> 
+            <textarea name="Message" rows="10" cols="58" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="check1">
+                <button type="submit" id="submitbtn" onclick="return validph()">Submit</button>
+            </div>
+        </div>
+         </div>
+    </div>
+
+</div>
+    </form>
+     
+    
+      <div id="div2">
+        <button id="pre" onclick="previous()">Previous</button>
+        <button onclick="move()">Next</button>
+    </div>
+
+
+   
+  <script src="second.js"></script>
+</body>
+</html>

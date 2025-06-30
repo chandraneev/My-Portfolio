@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandraneev's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D" class="portpic">
+        <div class="head1">
+            <h4><i class="fa-solid fa-web-awesome" id="icon9"></i>My Portfolio</h4>
+            <div id="seardiv"><input type="search" placeholder="search" id="sear" onkeydown="checkenter(event)">
+            <button id="searbut" onclick="searchcon()"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            <div id="div3"><i class="fa-solid fa-list"  onclick="toggmenu()"></i></div>
+            <ul id="div2" class="div4"><a href="index.html"class="anker" id="an"><i class="fa-solid fa-house" id="icon10"></i>Home</a>
+            <a href="about.html"class="anker"><i class="fa-solid fa-user" id="icon11"></i>About</a>
+            <a href="experience.html" class="anker"><i class="fa-solid fa-circle-info" id="icon17"></i>Experience</a>
+            <a href="contact.html"class="anker"><i class="fa-solid fa-phone" id="icon12"></i>Contact</a></ul>
+            <i class="fa-solid fa-toggle-on" onclick="pressdmlm()" id="dm"></i>
+        </div>
+
+        <div class="head2">
+            <h3><span id="hi">Hi,</span> I'm Chandraneev Dey, a <span id="typ"></span></h3>
+            <h1>Learning Full Stack Web Development</h1>
+            <br><br>
+            <p><i>I love Web Development and UI design and have been working on my portfolio since 2025.</i></p>
+            <p><i>Am I fit for your requirements and Can I give your business a new creative start right away?! </i></p>
+            <br><br>
+            <a href="mailto:chandraneevdey@gmail.com">
+            <button id="hm">Hire Me</button>
+            </a>
+        </div>
+    </header>
+
+
+    <div id="mecontant" class="sec">
+        <div id="myphoto">
+         <img src="my photo.jpg" class="mepic"></div>
+        <div class="meinfo">
+            <h4 id="head3"><i class="fa-solid fa-user-tie" id="icon22"></i>MY BIOGRAPHY</h4>
+            <br><br>
+          <div id="mename">
+            <h2 id="mename2">NAME:- Chandraneev Dey</h2>
+          </div>
+            <p class="head4"><i>I am hardworking, Flexible and Detail-oriented person. Also I'm a Quick Learner and Problem-solver and I'm passionate in my work. I build front-end and back-end both part for my projects using differnt tools and languages. I also improved my skills according projects need.</i></p>
+            <br><br>
+            <div id="div1">
+            <span class="head4" id="dob"><i class="fa-solid fa-calendar-week" id="icon5"></i>DOB:- 02/07/2003</span>
+            <span class="head4" id="gm"><i class="fa-solid fa-mars" id="icon6"></i>Gender:- Male</span>
+            <br>
+            <span class="head4" id="ci"><i class="fa-solid fa-flag" id="icon7"></i>citizen:- Indian</span>
+            <span class="head4" id="fh"><i class="fa-solid fa-location-dot" id="icon8"></i>From:- Howrah, West Bengal</span></div>
+            <br><a href="CV CHANDU(UPDATED)_123153-3.pdf"download>
+            <button id="head5"> <i class="fa-solid fa-download" id="icon4"></i>Download CV</button>
+            </a>
+        </div>
+    </div>
+
+    
+    <section id="educon" class="sec">
+        <div class="head6" id="edu1">
+            <i class="fa-solid fa-graduation-cap" id="icon1"></i>
+            <h1 id="eduname">Education</h1>
+            <button  onclick="showInfo()" id="km">Know More</button>
+        </div>
+        <div class="head6" id="edu2" >
+            <div class="head7">
+                <h4 class="colname">University of Engineering and Management, Kolkata (2022 - 2026)</h4>
+                <p>Course:- Bachelor of Technology in computer Science and Technology</p>
+                <p class="cgpa">CGPA:- 7.16</p><a href="universitycgpa.html" class="cgpa" id="cgpa2">Show Result</a>
+            </div>
+            <div class="head7">
+                <h4 class="colname">Howrah Vivekananda Institution (2020-2022)</h4>
+                <p>Course:- 12th (WBCHSE)</p>
+                <p class="cgpa">Percentage:- 70%</p><a href="class-12.jpg" class="cgpa" id="cgpa3">Show Result</a>
+            </div>
+            <div class="head7">
+                <h4 class="colname">Howrah Vivekananda Institution (2014-2020)</h4>
+                <p>Course:- 10th (WBBSE)</p>
+                <p class="cgpa" >Percentage:- 81.6%</p><a href="class-10.jpg" class="cgpa" id="cgpa4">Show Result</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="prolan" class="sec" >
+        <div class="prla">
+            <div><h1 id="prlaname">Programing Languages</h1></div>
+        <div id="prla2">
+            <p class="pl">HTML</p>
+            <p class="pl">CSS</p>
+            <p class="pl">JavaScript</p>
+            <p class="pl">React JS</p>
+            <p class="pl">Node JS</p>
+            <p class="pl">C</p>
+            <p class="pl">Java</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="soi" class="sec">
+        <div class="soihead">
+            <h1 class="soititle">Subject of Interest</h1>
+        <div class="soicon">
+            <div class="soicon2">DSA</div>
+            <div class="soicon2">DBMS</div>
+            <div class="soicon2">OOPS</div>
+        </div>
+        <div>
+        </section>
+
+        <section id="cwc" class="sec">
+        <div class="cwchead">
+            <h1 class="cwctitle">CourseWork & Certification</h1>
+        <div class="cwccon">
+            <div class="cwccon2"><p>Full Stack Web Development </p>
+                <p>(15th Apr - 29th May)</p>
+                <p>On Geeks for Geeks</p>
+                <br>
+                <a href="Full stack certificate.pdf"><button class="cwcbut">Know More</button></a>
+            </div>
+            <div class="cwccon2"><p>Data Stucture and Algorithms</p>
+                <p>(15th Apr - Present)</p>
+                <p>On Coursera</p>
+                <br>
+                <a href="universitycgpa.html"><button class="cwcbut">Know More</button></a>
+            </div>
+        </div>
+        </div>
+        </section>
+
+
+        <section id="sk" class="sec">
+        <div class="skhead">
+            <h1 id="sktitle">Soft Skills</h1>
+    <div id="skcon">
+            <p class="skcon2">Teamwork</p>
+              <div class="valu1">
+              <div id="val2"></div>   
+            </div>
+            
+            <p class="skcon2">Time Management</p>
+              <div class="valu1">
+              <div id="val3"></div>
+            </div>
+            
+            <p class="skcon2">Efective Communication</p>
+                <div class="valu1">
+                <div id="val4"></div>
+            </div>
+            
+                <p class=" skcon2">MERN Stack Dev</p>
+                <div class="valu1">
+                <div id="val5"></div>
+            </div>
+            
+        </div>
+        </div>
+    </section>
+
+
+    <section id="pr" class="sec">
+        <div class="prhead">
+            <h1 id="prtitle">Projects</h1>
+        <div id="prcon">
+            <div class="prcon2">
+                <div class="primage"><img src="https://5.imimg.com/data5/SELLER/Default/2023/1/JF/WD/QE/100433836/modern-blue-3d-we-are-hiring-digital-marketing-instagram-post-1--500x500.jpg" class="prpic"></div>
+                <div class="primage2"><h3>E-commerce Website</h3>
+                <a href="universitycgpa.html"><button class="prbut">Know More</button></a></div>
+            </div>
+            <div class="prcon2">
+                <div class="primage"><img src="https://5.imimg.com/data5/SELLER/Default/2023/5/308407808/JY/RC/QR/108973683/hotel-booking-website.png" class="prpic"></div>
+                <div class="primage2"><h3>Hotel Booking Website</h3>
+                <a href="universitycgpa.html"><button class="prbut">Know More</button></a></div>
+            </div>
+            <div class="prcon2">
+                <div class="primage"><img src="https://cdn2.vectorstock.com/i/1000x1000/59/56/weather-web-forecast-mobile-meteorology-widget-vector-31095956.jpg" class="prpic"></div>
+                <div class="primage2"><h3>Weather Website</h3>
+                <a href="universitycgpa.html"><button class="prbut">Know More</button></a></div>
+            </div>
+            <div class="prcon2">
+                <div class="primage"><img src="https://www.techdreams.org/wp-content/uploads/2009/02/tinychat.png" class="prpic"></div>
+                <div class="primage2"><h3>Online chatting Webstie</h3>
+               <a href="universitycgpa.html"><button class="prbut">Know More</button></a></div>
+            </div>
+            </div>
+            </div>
+    </section>
+
+
+    <section id="lk" class="sec">
+        <div id="lk1">
+            <i class="fa-solid fa-language" id="icon20"></i>
+            <h1 id="lkname">Languages Known</h1>
+        </div>
+        <div id="lk2">
+            <div class="head9">
+                <h4 class="lname">English</h4>
+            </div>
+            <div class="head9">
+                <h4 class="lname">Bengali</h4>
+            </div>
+            <div class="head9">
+                <h4 class="lname">Hindi</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="ho" class="sec">
+        <div class="head10" id="ho1">
+            <i class="fa-solid fa-icons" id="icon19"></i>
+            <h1 id="honame">Hobbies</h1>
+        </div>
+        <div class="head10" id="ho2">
+            <div class="head11">
+                <h4 class="hname">Photography</h4>
+            </div>
+            <div class="head11">
+                <h4 class="hname">Cricket</h4>
+            </div>
+            <div class="head11">
+                <h4 class="hname">Editing</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="fg" class="sec">
+        <div class="head12" id="fg1">
+            <i class="fa-solid fa-trophy" id="icon21"></i>
+            <h1 id="fgname">Future Goal</h1>
+        </div>
+        <div class="head12" id="fg2">
+           <div id="fgcon">
+              <p id="fg3"><i>Aspiring to become a Software Engineer specializing in web development as a Full Stack Web Developer. Also learn advance front-end, back-end concepts to create more advanced and morden Websites. I want to work in my dream company to enhance my skills and helping them to growing their profits.</i></p>
+           </div> 
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="cr">
+            <i class="fa-solid fa-caret-up" id="icon18" onclick="scrolltop()"></i>
+            <p class="crtext">&copy; 2025 CHANDRANEEV DEY</p>
+            <p class="crtext"> Built by Own.</p>
+        </section>
+
+        <section class="info">
+            <div class="infocon">
+               
+                <a href="https://wa.me/916289552087" target="_blank" class="come"><i class="fa-brands fa-whatsapp" id="icon2"></i>What's App </a>
+                
+                <a href="https://www.linkedin.com/in/chandraneev-dey-019213350" class="come"><i class="fa-brands fa-linkedin" id="icon13"></i>Linkedin</a> 
+                
+                <a href="https://www.instagram.com/itz_rick_84" class="come"><i class="fa-brands fa-instagram" id="icon14"></i>Instagram</a>          
+            </div>
+            <div class="infocon">
+                <a href="mailto:chandraneevdey@gmail.com" class="come2"><i class="fa-solid fa-envelope" id="icon3"></i>E-mail</a>  
+
+                <a href="https://www.github.com/chandraneev" class="come2"><i class="fa-brands fa-github" id="icon15"></i>Github</a>   
+
+                <a href="https://www.facebook.com/Chandraneev.dey" class="come2"><i class="fa-brands fa-facebook" id="icon16"></i>Facebook</a>
+            </div>
+        </section>
+
+        <section class="causion">
+            <p class="come3"><i>Do not share my personal information</i></p>
+        </section>
+    </footer>
+
+    <script src="first.js"></script>
+
+
+</body>
+</html>

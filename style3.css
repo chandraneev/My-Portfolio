@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#heading{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+h1{
+    font-size: 40px;
+    color: rgb(98, 193, 214);
+}
+#maincon{
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    margin-top: 4%;
+    margin-left: 25%;
+    border-radius: 50px;
+    box-shadow: 5px 4px 10px gray;
+    overflow: hidden;
+}
+.div1{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(to right,rgb(2,115,129),rgb(35, 152, 182),rgb(98, 193, 214));
+    border-radius: 50px;
+    transition: margin-left 0.5s ease;
+
+}
+#div2{
+    width: 50%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+}
+button{
+    width: 10%;
+    height: 80%;
+    border-radius: 20px;
+}
+#con1{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outercon{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 40%;
+    font-weight: bold;
+}
+.con{
+    width: 3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(98, 193, 214);
+    border-radius: 50%;
+    color: white;
+}
+.page,#page2,#page3{
+    background-color: black;
+}
+#page4{
+    background:linear-gradient(to right,rgb(98, 193, 214),rgb(35, 152, 182),rgb(2,115,129));
+    border-radius: 40px;
+}
+#container{
+    height: 90%;
+}
+#con2{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#container{
+    height: 90%;
+    width: 100%;
+}
+.perinfo{
+    width: 60%;
+    height: 10%;
+    border: 2px solid rgb(98, 193, 214);
+    border-radius: 30px;
+    padding-left: 2%;
+    color:white;
+    background-color: black;
+}
+button{
+    width: 18%;
+     background:linear-gradient(to right,rgb(2,115,129),rgb(35, 152, 182),rgb(98, 193, 214));
+     border: 2px solid rgb(98, 193, 214);
+     font-weight: bold;
+     box-shadow: 3px 3px 6px gray;
+     cursor: pointer;
+     transition: tramsform 0,3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#pre{
+    font-weight: lighter;
+}
+#con3{
+    background-color: blueviolet;
+}
+#step2{
+    margin-left: 100%;
+}
+#step3{
+    margin-left: 100%;
+}
+.check{
+    width: 80%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(98, 193, 214);
+    border-radius: 30px;
+    color: gray;
+}
+.check1{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    color: gray;
+}
+span{
+    font-weight: bold;
+}
+select{
+    width: 50%;
+    height: 70%;
+    border: 2px solid rgb(98, 193, 214);
+    border-radius: 30px;
+    padding: 1%;
+    background-color: black;
+    color: gray;
+}
+textarea{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(98, 193, 214);
+    border-radius: 40px;
+    align-content: center;
+    text-align: center;
+    resize: none;
+    
+}
+#submitbtn{
+    width: 30%;
+    font-weight: bold;
+    border: 0px;
+    box-shadow: 4px 4px 8px black;
+}
+p{
+    color:red;
+    font-weight: bold;
+    display: none;
+}
+.checkbx{
+    accent-color: blue;
+}
+
+
+@media (min-width:300px) and (max-width:1024px){
+    #maincon{
+        width: 98%;
+        margin-left: 1%;
+        box-shadow: none;
+    }
+    .con{
+        width: 8%;
+    }
+    #div2{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .perinfo{
+        width: 75%;
+    }
+    .check{
+        width: 95%;
+        padding: 2%;
+        text-align: center;
+    }
+    select{
+        width: 60%;
+    }
+    textarea{
+        width: 100%;
+    }
+    button{
+        width: 20%;
+        height: 70%;
+        box-shadow: none;
+    }
+    #submitbtn{
+        width: 60%;
+    }
+}
+
